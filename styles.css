@@ -1,0 +1,148 @@
+/* CSS Reset File */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+/* end of CSS reset file */
+
+/* LAYOUT */
+#header {
+  text-align: center;
+  height: 150px;
+  background-color: black;
+  line-height: 10em; /* THIS VERTICALLY CENTERED THE TEXT */
+}
+
+body {
+    background: url("colored_pencils_top.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+main {
+  display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+}
+
+#Menu_Boxes {
+  
+  display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+
+
+.box {
+  box-sizing: border-box;
+  
+  flex: 1;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 2vw;
+  margin: 2vw;
+  text-align: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+/* MENU BOX COLORS */
+#Get_Help {
+  background-color: rgb(32, 196, 119);
+}
+
+#Helpful_Links {
+  background-color: rgb(253, 143, 0);
+}
+
+#Notebook {
+  background-color: rgb(202, 2, 79);
+  height: 25vw;
+}
+
+
+
+
+/* FONTS */
+
+h1, h2, h3, p {
+    color: white;
+}
+
+
+h1 {
+    font-size: 6vw;
+}
+
+h2 {
+    font-size: 2.5vw;
+    min-width: 100%;
+}
+
+ul {
+  font-size: 2vw;
+  line-height: 2em;
+  
+}
+
+/* LINKS */
+
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;}
+a:visited {
+    color: black;}
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;}
+a:active {
+    color: white;}
+
+    

@@ -1,0 +1,204 @@
+/* CSS Reset File */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+/* end of CSS reset file */
+
+
+#Header {
+    text-align: center;
+    height: 150px;
+    background: url("colored_pencils_top.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    line-height: 10em; /* THIS VERTICALLY CENTERED THE TEXT */
+}
+
+
+
+h1 {
+    font-size: 6vw;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+	font-size: 2vw;
+	color: white;
+	
+}
+
+body {
+    background-color: black;
+}
+
+#Go_Back {
+  display: flex;
+  justify-content: space-around;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	background-color: white;
+    text-decoration: none;
+    color: black;
+	border-radius: 5px;
+	height: 2vw;
+	width: 8vw;
+	font-size: 1vw;
+	text-align: center;
+	justify-content: center;
+	line-height: 2em;
+}
+
+a.go_back {
+	-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	background-color: rgb(15, 247, 45);
+    text-decoration: none;
+    color: black;
+	border-radius: 5px;
+	height: 3vw;
+	font-size: 2vw;
+	text-align: center;
+	justify-content: center;
+	line-height: 1.5em;
+	margin: auto;
+	width: 30vw;
+}
+
+
+
+.lesson {
+	margin: 2vw;  /*auto????????*/
+    border-radius: 20px;
+	width: 45vw;
+	height: 8vw;
+	text-align: center;
+	justify-content: center;
+	line-height: 3vw;
+}
+
+main {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+
+/* COLORS FOR LESSONS */
+#Intro_to_Ratios {
+	background-color: rgb(223, 95, 148);
+}
+
+#Intro_to_Rates {
+	background-color: rgb(73, 161, 212);
+}
+
+#Unit_Rate_Word_Problems {
+	background-color: rgb(61, 128, 228);
+}
+
+#Writing_Proportions {
+	background-color: rgb(123, 87, 255);
+}
+
+#Solving_Proportions {
+	background-color: rgb(209, 92, 164);
+}
+
+#Unit_Rate_on_a_Graph {
+	background-color: rgb(250, 195, 92);
+}
+
+#Review_Notes_Ratios_Rates_and_Proportions {
+	background-color: rgb(116, 223, 116);
+}
+
+#Converting_Between_Decimals_Fractions_and_Percents {
+	background-color: rgb(185, 112, 112);
+}
+
+#Markdowns_and_Discounts {
+	background-color: rgb(79, 214, 196) ;
+}
+
+#Markups_and_Sales_Tax {
+	background-color: rgb(48, 96, 230);
+}
+
+#Tips {
+	background-color: rgb(119, 48, 212);
+}
+
+#Percent_Increase_and_Decrease {
+	background-color: rgb(223, 95, 148);
+}
+
+#Simple_Interest {
+	background-color: rgb(73, 161, 212);
+}
+
+#Percent_of_a_Number {
+	background-color: rgb(61, 128, 228);
+}
+
+#Finding_the_Percent_of_a_Number {
+	background-color: rgb(123, 87, 255);
+}
+
+#Commission {
+	background-color: rgb(209, 92, 164);
+}
+
+#Review_Notes_Percent {
+	background-color: rgb(250, 195, 92);
+}
