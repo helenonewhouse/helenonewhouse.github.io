@@ -48,6 +48,117 @@ blockquote, q {
 }
 /* end of CSS reset file */
 
+
+
+#header {
+  text-align: center;
+  height: 100px;
+  background-color: black;
+  line-height: 6em; /* THIS VERTICALLY CENTERED THE TEXT */
+}
+
+body {
+  background: url("colored_pencils_top.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1, h2, h3, p {
+  color: white;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;}
+a:visited {
+  color: black;}
+a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;}
+a:active {
+  color: white;}
+
+main {width:100%;  margin: 0 auto; }
+
+#header {width:100%; margin: 0 auto;}
+
+#Notebook {width:80%; margin:  auto;}
+
+#Get_Help {width:80%; margin: auto;}
+
+#Helpful_Links {width:80%; margin:  auto;}
+
+#Get_Help {
+  background-color: rgb(32, 196, 119);
+  text-align: center;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#Helpful_Links {
+  background-color: rgb(253, 143, 0);
+  text-align: center;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#Notebook {
+  background-color: rgb(202, 2, 79);
+  text-align: center;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+
+main {
+  width:100%;  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: inline-block;
+  width: 33.33%;
+  margin: auto;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+
+main {width:100%;  margin: 0 auto; }
+
+}
+
+
+
+
 /* LAYOUT */
 #header {
   text-align: center;
@@ -65,23 +176,8 @@ body {
     
 }
 
-main {
-  display: flex;
-	flex-flow: wrap;
-	justify-content: center;
-}
-
-#Menu_Boxes {
-  
-  display: flex;
-	flex-flow: wrap;
-	justify-content: space-around;
-}
-
-
 .box {
   box-sizing: border-box;
-  
   flex: 1;
   border-style: solid;
   border-radius: 20px;
@@ -144,5 +240,4 @@ a:hover {
     text-decoration: underline;}
 a:active {
     color: white;}
-
-    
+}
