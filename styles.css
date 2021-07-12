@@ -218,7 +218,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     min-width: 100%;
 }
 
@@ -233,7 +233,7 @@ ul {
 a:link {
     color: rgb(0, 0, 0);
     text-decoration: none;}
-a:visited {
+a:visited 
     color: black;}
 a:hover {
     color: rgb(255, 255, 255);
